@@ -73,5 +73,5 @@ for each_line in input_lines:
 if all_ok: #or new_branch_push or branch_deleted:
     exit(0)
 else:
-    print "[From InSoft GitLab master] Commit message *MUST* contain one of these pattern: issue-123 or ISSUE-#123 or issue#123 or hotfix or forced"
+    print "[From My GitLab master] Commit message *MUST* contain one of these pattern: issue-123 or ISSUE-#123 or issue#123 or hotfix or forced"
     exit(1)

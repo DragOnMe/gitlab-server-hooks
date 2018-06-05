@@ -6,11 +6,11 @@
 # Caution: one item per one line for clarity
 declare -a target_path_list=(
  "CloudLabTest/project-3.git"
- "CloudMesh/web.git"
- "CloudMesh/cloudmesh_original_root.git"
- "CloudMesh/ngf.git"
- "CloudMesh/public-cloud-adapter.git"
- "CloudMesh/public-cloud-web.git"
+ "ExampleGroup/web.git"
+ "ExampleGroup/prj_original_root.git"
+ "ExampleGroup/prj-new.git"
+ "ExampleGroup/prj3.git"
+ "ExampleGroup/prj-web.git"
 )
 
 for path in "${target_path_list[@]}"; do
